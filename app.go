@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/cagataygurturk/hello-go/controllers"
+	"github.com/gin-gonic/gin"
+	"io"
 	"net/http"
 	"os"
-	"io"
-	"github.com/gin-gonic/gin"
-	"github.com/cagataygurturk/hellogo/controllers"
 )
 
 func main() {

@@ -3,3 +3,4 @@
 logs
 bin
 vendor
+.DS_Store
