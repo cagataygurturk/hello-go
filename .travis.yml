@@ -1,0 +1,14 @@
+sudo: required
+dist: trusty
+language: go
+go:
+  - 1.11.x
+services:
+  - docker
+deploy:
+  skip_cleanup: true
+  provider: script
+  script:
+  - docker build -t hello-go .
+  on:
+    branch: master
